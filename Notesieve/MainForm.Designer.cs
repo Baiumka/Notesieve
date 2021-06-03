@@ -52,25 +52,25 @@ namespace Notesieve
             this.showMenuItem,
             this.closeMenuItem});
             this.ContextMenu.Name = "ContextMenu";
-            this.ContextMenu.Size = new System.Drawing.Size(246, 76);
+            this.ContextMenu.Size = new System.Drawing.Size(205, 70);
             this.ContextMenu.Text = "1234";
             // 
             // updateMenuItem
             // 
             this.updateMenuItem.Name = "updateMenuItem";
-            this.updateMenuItem.Size = new System.Drawing.Size(245, 24);
+            this.updateMenuItem.Size = new System.Drawing.Size(204, 22);
             this.updateMenuItem.Text = "Проверить обновления";
             // 
             // showMenuItem
             // 
             this.showMenuItem.Name = "showMenuItem";
-            this.showMenuItem.Size = new System.Drawing.Size(245, 24);
+            this.showMenuItem.Size = new System.Drawing.Size(204, 22);
             this.showMenuItem.Text = "Свернуть";
             // 
             // closeMenuItem
             // 
             this.closeMenuItem.Name = "closeMenuItem";
-            this.closeMenuItem.Size = new System.Drawing.Size(245, 24);
+            this.closeMenuItem.Size = new System.Drawing.Size(204, 22);
             this.closeMenuItem.Text = "Выключить";
             // 
             // backgroundWorker1
@@ -79,12 +79,13 @@ namespace Notesieve
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(283, 833);
+            this.ClientSize = new System.Drawing.Size(248, 625);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MainForm";
             this.ShowInTaskbar = false;
             this.Text = " Notesieve";

@@ -198,7 +198,7 @@ namespace Notesieve
         {
             try
             {
-                Process.Start(Application.StartupPath + @"\updaters" + @"\" + "NotesieveUpdater.exe");
+                Process.Start(Application.StartupPath + @"\" + "NotesieveUpdater.exe");
                 Process.GetCurrentProcess().Kill();
             }
             catch
