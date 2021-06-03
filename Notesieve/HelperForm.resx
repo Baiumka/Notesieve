@@ -1,0 +1,182 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Вас приветствует Notesieve - приложение для хранение ваших записей.
+Вы можете вызвать меня, в любой момент, я появлюсь поверх всех окон или поверх любой игры.
+Чтобы создать новую запись, нажмите на кнопку добавления записи. При добавлении вы можете выбрать цвет закладки, тип записи,
+указать заголовок и вписать текст. 
+Приложение позволяет создать несколько типов записей:
+-Обычная
+-Список дел
+-Напоминание с таймером
+-Скриншот
+
+Список дел:
+Создаст список из указанных подзадач и добавит возможность их вычеркивать, по одному. 
+Общий прогресс выполнения будет показан слева от записей. Для разделения подзадач используйте символ *
+При обнаружении в тексте записи данного символа, будет автоматически создана новая задача. Обратите внимание, что данный символ будет 
+влиять только на текст данного типа записи.
+
+Напоминание с таймером:
+При создании записи данного типа записи, вам нужно будет указать время, в которое вам будет сделано напоминание. Это можно сделать двумя 
+способами:
+1.Таймер (указать промежуток времени)
+2.Будильник (указать конкретное время)
+После чего, в указанное время, приложение подаст звуковой сигнал и отправит уведомление Windows.
+
+Скриншот:
+Создает изображение из вашего монитора и сохраняет его среди всех записей. 
+По умолчанию это делается кнопкой PrtSc. Обратите внимание, если вы измените в настройках клавишу, то скриншот не будет автоматически
+копироваться в буфер обмена. Запись будет иметь название генерируемое из времени. Вы можете изменить его и добавить описание 
+в любой удобный для вас момент.
+
+Вы можете скрыть или отобразить необходимые типы записи, путем переключения фильтров. Нажмите на соответствующий тип чтобы 
+убрать/добавить его из отображаемых. Если записей слишком много, наведите на них курсор и используйте колёсико мышки для 
+прокрутки вверх или низ. 
+
+Чтобы скрыть окно программы нажмите на "значок" в верхнем, левом углу программного окна. Также вы можете это сделать при помощи 
+указанной клавиши (по умолчанию F3_. Чтобы развернуть окно обратно, используйте ту же клавишу (по умолчанию F3). Либо щелкните 
+правой кнопкой на значок в трее и нажмите "развернуть".
+
+Вы можете самостоятельно назначить кнопки для вышеперечисленных действий. Сделать это можно в панели настроек.
+Также в настройках вы можете изменить прозрачность отображаемого окна и добавить/убрать программу в автозапуск (программа 
+автоматически будет запускать при включении компьютера).
+
+Удачного дня ;)
+</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACIu3EAoeWJAKHjiEKb2oNdjMV2JWWNVQfU/7MABwkGAAAAAAB5AkkAZQAqAY8zkAqdYrcZpHfHMZx/
+        xDZol6IKj6TMABIcGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC5rHUAxIxqANCz
+        fR3KrXkowaV0HLSYaxKcn2kQqe2Or6rwkP+n7Y7ioueKsJrfhHCFuIBGgqOzV42x03qUut2cmL/hvZrF
+        5diazOjtltfq7Iff4X0AAAAAMU1PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEf3gAPHNrAViT
+        lAdvsrER6MuRnu/Mj+ruy47b7MmNzunJjMXY0o3x0deN/8vZjf/G3I3/wN2M/rjXi/et05r8ota0/5nc
+        zv+W5uH/le3p/5Lv7f+R8fH/i+fosEZ0dwVQhYcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArHvLAP8A
+        AACerdw4juXqrY/r6szY1qnx9dCR//TQkv/00JL/9NCS//XQkv/1z5L/9c+S//TPkv/zz5H/8s+R//DQ
+        kP/tz4//582R/+HOmf/c0aD/1tKl/8/Uq//N0Kbl4sKKleC/hnXIq3gVza97AAAAAAAAAAAAAAAAAAAA
+        AAC2hNsAyVfVBLud7qeZ5PP/lfLw/9vYqf/10JH/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//TQkv/10JL/9dCS//XQkf/20JH/9tCR//bQkf/00JL/782P6b6zeTL//8gAP1c1AAAA
+        AAAAAAAA3XOyMuB0tGvkdbaFzY/f15ze9P+Y8e3/4dak//XQkf/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//XQkv/m0Y/7rOOKy6Dj
+        iIyY1oBMhr1xHF+FUAXwfMB+8n7C//R+wv/eiNb/oNf0/5vw6f/m1J//9dCR//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9dCS/+LU
+        j/+v75D/rfSS/6vxkPio7I3XnNuDWPF9wWTzfsP79H7C/+WD0P+lzvL/n+/k/+rTm//10JH/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/10JL/3dWP/63xkf+t9JL/rfSS/6zykfCh44hH8HzBSvN+w/T0fsL/64DL/6zE8P+k7N//7tKY//XR
+        kv/10ZL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//XQkv/Y14//rPKR/630kv+t9JL/qvCPypbTfhXwfMAz837D6fN+w//vfsf/tLns/6rq
+        2v/oyY//4L+G/+nGi//00JL/9NCS//XRkv/10ZP/9dGS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/9c+S/9PZj/+s85H/rfSS/630kv+n7I2P////AO98wCDyfsPb837D//J9
+        xP+9ruf/sefU/9K0f//Ss37/0rN+/9i4gf/qyIz/wqV0/928hP/px4z/8c6Q//TQkv/10ZP/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/1z5L/zduO/6z0kv+t9JL/rPOR+aPmilCs85EA7Xu+EvJ+
+        wsrzfsP/9HzD/8ej4f+54c3/78yP/+LBh//qyIz/tJlr/8utef+dhV7/vaFx/7WabP/Dp3X/2rqC/9++
+        hf/tyo7/8s6R//XRk//10ZP/9dCS//TQkv/00JL/9NCS//TPkv/I3o7/rPSS/630kv+r8ZDbnNuDHp3d
+        hQDneLoH8n3CtfN+w//0fcL/0Zna/8Lbxf/rx4v/x6p3/9u7g/+7oHD/moNc/7ecbf/YuYL/0LJ9/7uf
+        cP/FqHb/vaFx/9CxfP+/o3L/z7F8/+HAh//syY3/8s6R//XQkv/00JL/88+R/8Phjv+s9JL/rfSS/6jt
+        jqdyn2AEhLpvAGY2UADyfcKd837D//R9wv/bkNP/zNO9//TQkP/syY3/7cqO/+vIjP/Wt4D/27uD/9W1
+        f//10ZP/17iB/82ve//gv4b/3byE/8apd/+/o3P/vKBx/8yuev/Ep3b/z7B8/86we//mxYr/v+SP/6z1
+        kv+t85L+peiLZ7X/mQA1Sy0A+YHIAPF9woTzfsP/9H3C/+SJzP/YybP/9dGR//XRkv/10ZL/9NCS//XR
+        k//yzpH/3LuE/9y8hP/yzpH/8s+R//XRk//10ZL/9dGS/+zJjf/hwIf/2rqD/9a3gP/Iq3j/w6Z0/9W5
+        gf+75o//rPWS/6vykemf4IYuouWJAAAAAAD1f8QA8X3Ba/N+w//zfsP/7IPG/+a/qf/10ZH/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/88+R//TQkv/00JL/9NCS//TQkv/00JL/8s6R//DMj//20ZP/9dGT//TQ
+        kv/zz5H/7M+Q/7fpj/+s9ZL/qe+PvI7IeAuQynkAAAAAAPN+wwDwfcFT837D/PN+w//xgcL/8Lug//TR
+        kf/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//XQkv/q0ZD/tOuP/6z0kv+m6ox9zP+sAF6ETwAAAAAA8X3CAPB8wT3zfsP0837D//KD
+        v//zv5v/9NGR//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/9dCS/+fSkP+x7ZD/rPOR86HkiECn7I0AAAAAAAAAAADwfMEA8HzAKvN+
+        w+nzfsP/8oa+//PDmf/00ZL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/10JL/4tOP/6/vkP+q8JDOl9V/FJjWgAAAAAAAAAAAAO98
+        vwDvfL8a8n7D2vN9xP/yibv/88eX//TRkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//XQkv/e1Y//rfCQ/6fsjZQAAAAAd6dkAAAA
+        AAAAAAAA7Hq9AOx7vg7yfsLI833E//KNuf/zypX/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQ
+        kv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9dCS/9nXj/+s8ZD6pOeKVK30
+        kgACAwIAAAAAAAAAAADnd7kA5ne4BfJ9wrPzfcT/8pK2//TOkv/2z5D/9dCR//XQkf/10JH/9dCR//TQ
+        kv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/00JL/9NCS//TQkv/1z5L/1NmP/6nv
+        j96c3YQhnt+FAAAAAAAAAAAAAAAAAN9zswD/sP8A8n3Cm/N9w//zi7r/7rSn/9jWrv/a2qr/4Nik/+XW
+        oP/p1Zz/7dKY//HQlv/zz5P/9NCS//TRkf/00ZH/9NGR//XQkv/1z5L/9dCS//XQkv/00JL/9NCS//XP
+        kv/O24//pu2NqnutZwWGvXEAAAAAAAAAAAAAAAAAxWeeAPiBxwDxfcKB837D//R9w//qiMf/qtLp/6Hb
+        7/+r0On/t8Ti/8S32P/Tqs3/453B//CZtf/zna//86Os//Ctp//nw53/4dOV/+HYkv/k15L/6dWS/+zU
+        kv/v0pL/8tGS/8jdjv+i6Ytqt/+aAD1UMwAAAAAAAAAAAAAAAAAAAAAA9H/EAPF9wWjzfsP/837D//J/
+        w//jidD/4YjS/+iDzf/tgMj/8H7G//J9xP/zfMT683zE8fN8xOXyfMPV8n3CweuIvavYqq6SuOKWhrLw
+        kbW08JLltu6S/Lrtkv++65L/s+uQ653hhjGj5okAAAAAAAAAAAAAAAAAAAAAAAAAAADyfsIA8H3BUPN+
+        w/fzfsPz837D5/R9wtfzfcHE833Br/J9wZbyfcJ98X3BZPF9wUzwfcE373zAJO58vxbseb4K8GDDA/8A
+        /wDE6pgAovKPCKnzkSiq85Ffq/SSoKz0ktqp74+4ksx7DJHNewAAAAAAAAAAAAAAAAAAAAAAAAAAAPB8
+        wADvfMAY8X3BTfB9wTrwfMAn73y/GOx6vgzmd7gEx2igANNuqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAKrujwCo640Dq/GQG6fsjSV1pWMBd6dkAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/////////////////+Hgf/wAAH/gAAA/4AAAD8AAAA8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAQAAAAEAAAABAAAAAYAAAAOAAAADgAAAA4AAAAeAAAAHgAAAB4AAAA+AAAAPgAAAD8AA
+        AA/AAAAfwAAAH8AAMB/Af/4f//////////8=
+</value>
+  </data>
+</root>
