@@ -1,5 +1,5 @@
 # Notesieve
-➡ [Download for Windows(https://snosme.github.io/awakened-poe-trade/download) ⬅
+➡ [Download for Windows](https://snosme.github.io/awakened-poe-trade/download) ⬅
 
 
 Notesieve - это Desktop приложение позволяющие создать заметки, не отвлекаясь от работы в любом, другом приложении. 
