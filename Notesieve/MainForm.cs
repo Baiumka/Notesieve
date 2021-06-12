@@ -61,7 +61,7 @@ namespace Notesieve
             welocomeLogoForm.Refresh();
             Thread.Sleep(START_LOGO_TIME);
             welocomeLogoForm.Close();
- 
+ //
             //Рисуем боковую панель
             viewDrawer = new Drawer(this);
             viewDrawer.DrawStart();
@@ -160,15 +160,15 @@ namespace Notesieve
                 }
                 WebClient wc = new WebClient();
                 wc.DownloadFileCompleted += download_Completed;
-                foreach (string file in files)
+                foreach (string fiLe in files)
                 {
-                    switch(file)
+                    switch(fiLe)
                     {
                         case "Notesieve_exe":
-                            await wc.DownloadFileTaskAsync(xmlUrl + file, folder + @"\" + "Notesieve.exe");
+                            await wc.DownloadFileTaskAsync(xmlUrl + fiLe, folder + @"\" + "Notesieve.exe");
                             break;
                         default:
-                            await wc.DownloadFileTaskAsync(xmlUrl + file, folder + @"\" + file);
+                            await wc.DownloadFileTaskAsync(xmlUrl + fiLe, folder + @"\" + fiLe);
                             break;
                     }
                 }
