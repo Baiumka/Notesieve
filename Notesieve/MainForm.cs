@@ -16,7 +16,7 @@ namespace Notesieve
     public partial class MainForm : Form
     {
         private const int START_LOGO_TIME = 3000;
-        public const string currentVersion = "1.1.0.00";
+        public const string currentVersion = "1.1.0.02";
       
         //private const string xmlUrl = "http://notesieve.com/";
         private const string xmlUrl = "https://notesieve.000webhostapp.com/NotesieveUpdate/";

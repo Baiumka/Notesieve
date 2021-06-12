@@ -49,8 +49,8 @@ namespace Notesieve
         string tableName = "NotesiveAppTable";
 
         string jsonFileName = "SyncSettings_v003.json";
-        string jsonFileLocalPath = "temp" + @"\" + "gSyncSettings_Temp.json";
-        string jsonDownloadFileLocalPath = "temp" + @"\" + "files_temp.json";       
+        string jsonFileLocalPath = System.Windows.Forms.Application.StartupPath + "temp" + @"\" + "gSyncSettings_Temp.json";
+        string jsonDownloadFileLocalPath = System.Windows.Forms.Application.StartupPath +  "temp" + @"\" + "files_temp.json";       
         UserCredential credential;
         CancellationTokenSource source;
         CancellationToken token;
@@ -898,7 +898,7 @@ namespace Notesieve
                 source = new CancellationTokenSource(new TimeSpan(0, 1, 0));
                 token = source.Token;
 
-                FileStream stream = new FileStream("credentials.json", FileMode.Open, FileAccess.Read);
+                FileStream stream = new FileStream(System.Windows.Forms.Application.StartupPath  + "credentials.json", FileMode.Open, FileAccess.Read);
                 string credPath = "token.json";
                 await Task.Run(() =>
                 {
